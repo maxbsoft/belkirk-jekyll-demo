@@ -12,11 +12,14 @@ sections:
   label: Posts
   create: all
   templates:
+  - information-yml
   - post
 - type: jekyll-pages
   label: Pages
   create: all
   templates:
+  - information-yml
+  - posts
   - landing-page
   - default
 - type: directory
